@@ -4,6 +4,7 @@ import (
   "net/http"
   "fmt"
   "html/template"
+  "github.com/BenPiggot/chitchat/data"
 )
 
 func session(w http.ResponseWriter, r *http.Request) (sess data.Session err error) {

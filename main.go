@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/BenPiggot/chitchat/data"
 	"html/template"
 	"net/http"
 )

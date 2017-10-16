@@ -2,6 +2,7 @@ package main
 
 import (
   "net/http"
+  "github.com/BenPiggot/chitchat/data"
 )
 
 func authenticate(w http.ResponseWriter, r *http.Request) {
