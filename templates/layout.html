@@ -8,9 +8,11 @@
     <link href="/static/css/font.awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    {{ template "navbar" }}
+    {{ template "navbar" . }}
 
     <div class="container">
+
+      {{ template "content" . }}
 
     </div>
 
